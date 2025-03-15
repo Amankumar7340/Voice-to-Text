@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Voice Transcription</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Voice Transcription</h1>
+        
+        <!-- Language Selection -->
+        <div class="language-selection">
+            <label for="input-lang">Speak in:</label>
+            <select id="input-lang">
+                <option value="hi-IN">Hindi</option>
+                <option value="en-US">English</option>
+            </select>
+        </div>
+
+        <!-- Start/Stop Button -->
+        <button id="start-btn">Start Listening</button>
+
+        <!-- Current Transcript Box -->
+        <div class="text-boxes">
+            <div class="transcript-box">
+                <h2>Current Transcript</h2>
+                <div id="transcript"></div>
+            </div>
+        </div>
+
+        <!-- Saved Conversations Container -->
+        <div id="saved-conversations">
+            <h2>Saved Conversations</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
