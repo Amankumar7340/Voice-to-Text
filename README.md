@@ -4,9 +4,6 @@ Real-Time Voice Transcription is a web application that allows users to speak in
 ## Url: 
 https://voice-to-text-ochre.vercel.app/
 
-https://voice-to-text-ochre.vercel.app/
-
-
 ## Features
 
 - **Real-Time Transcription**: Speak in your preferred language, and the app will transcribe your speech in real-time.
